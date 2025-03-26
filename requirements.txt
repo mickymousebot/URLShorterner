@@ -1,18 +1,15 @@
-aiohttp==3.8.1
-pymongo[srv]
+aiohttp==3.8.2  # Updated to latest version (removed duplicate 3.8.1)
+pymongo[srv]==4.6.2  # Added version for stability
 motor==2.5.1
 Pyrogram==2.0.30
 TgCrypto==1.2.3
-bs4
-pyshorteners
-aiofiles
-dnspython
-python-dotenv
-errorsolvers
-domainers 
+beautifulsoup4==4.12.3  # bs4 is a dummy package; use beautifulsoup4
+pyshorteners==1.0.1
+aiofiles==24.1.0
+dnspython==2.7.0
+python-dotenv==1.1.0
 Flask==2.2.2
 gunicorn==20.1.0
-aiohttp==3.8.2
 Jinja2==3.0.3
-werkzeug==2.2.2
+Werkzeug==2.2.2
 itsdangerous==2.0.1
