@@ -1,12 +1,12 @@
 aiohttp==3.8.2
-pymongo[srv]==3.12.0  # Downgraded to work with motor 2.5.1
+pymongo[srv]==3.12.0
 motor==2.5.1
 Pyrogram==2.0.30
 TgCrypto==1.2.3
 beautifulsoup4==4.12.3
 pyshorteners==1.0.1
 aiofiles==24.1.0
-dnspython==2.7.0
+dnspython==1.16.0  # Downgraded to work with pymongo 3.12.0
 python-dotenv==1.1.0
 Flask==2.2.2
 gunicorn==20.1.0
