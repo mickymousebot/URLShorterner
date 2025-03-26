@@ -1,9 +1,9 @@
-aiohttp==3.8.2  # Updated to latest version (removed duplicate 3.8.1)
-pymongo[srv]==4.6.2  # Added version for stability
+aiohttp==3.8.2
+pymongo[srv]==3.12.0  # Downgraded to work with motor 2.5.1
 motor==2.5.1
 Pyrogram==2.0.30
 TgCrypto==1.2.3
-beautifulsoup4==4.12.3  # bs4 is a dummy package; use beautifulsoup4
+beautifulsoup4==4.12.3
 pyshorteners==1.0.1
 aiofiles==24.1.0
 dnspython==2.7.0
